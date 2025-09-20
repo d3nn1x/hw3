@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* __________ LOGO __________ */
+
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+/* __________ BUTTON __________ */
+
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+}
+
+.button:hover,
+.button:focus {
+  background: #404bbf;
+}
+
+/* __________ TITILE __________ */
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+}
+
+/* __________ SUBTITLE __________ */
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* __________ CARD-TEXT __________ */
+
+.card-text {
+  color: #434455;
+
+  line-height: 1.5;
+}
+
+/* __________ HEADER __________ */
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contacts-link {
+  color: #434455;
+
+  line-height: 1.5;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* __________ HERO __________ */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.title-hero {
+  color: #ffffff;
+
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+}
+
+/* __________ ADVANTAGES __________ */
+
+/* __________ FOOTER __________ */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer .logo {
+  color: #ffffff;
+}
+
+.footer-text {
+  color: #f4f4fd;
+
+  line-height: 1.5;
+}
